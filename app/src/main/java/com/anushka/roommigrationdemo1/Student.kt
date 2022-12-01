@@ -1,8 +1,9 @@
-package com.kishan.roommigrationdemo1
+package com.anushka.roommigrationdemo1
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
+import androidx.room.RenameColumn
 
 @Entity(tableName = "student_info")
 data class Student(
@@ -14,5 +15,9 @@ data class Student(
     var name : String,
 
     @ColumnInfo(name = "student_email", defaultValue = "No Email")
-    var email : String
+    var email : String,
+
+
+    @ColumnInfo(name = "subject_name")
+    var courseName : String?
 )

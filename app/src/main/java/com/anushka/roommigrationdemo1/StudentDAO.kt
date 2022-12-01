@@ -1,4 +1,4 @@
-package com.kishan.roommigrationdemo1
+package com.anushka.roommigrationdemo1
 
 import androidx.room.*
 

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">RoomMigrationDemo1</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="course_name">Course Name</string>
+    <string name="submit">Submit</string>
 </resources>
